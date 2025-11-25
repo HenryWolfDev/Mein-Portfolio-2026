@@ -1,8 +1,5 @@
 # 🗂 Angular Projektstruktur – Übersicht & Erklärung
 
-Dies ist die empfohlene Projektstruktur für dein Portfolio-Projekt.  
-Sie basiert auf modernen Angular-Best Practices und trennt klar zwischen Logik, UI und Feature-Bereichen.
-
 ---
 
 ## 📁 src/app – Hauptordner der Anwendung
