@@ -1,10 +1,11 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ButtonConfig } from './button.config';
-import { NgIf } from '../../../../node_modules/@angular/common/common_module.d-NEF7UaHr';
+import { CommonModule, NgIf } from '@angular/common';
 
 @Component({
+  standalone: true,
   selector: 'app-ui-button',
-  imports: [],
+  imports: [CommonModule, NgIf],
   templateUrl: './ui-button.component.html',
   styleUrl: './ui-button.component.scss',
 })
@@ -15,8 +16,8 @@ export class UiButtonComponent implements OnInit {
 
   IconDictionary = {
     mail: 'assets/icons/mail-outline.svg',
-    easel: '/assets/icons/easel-outline.svg',
-    'code-slash': '/assets/icons/code-slash-outline.svg',
+    easel: 'assets/icons/easel-outline.svg',
+    'code-slash': 'assets/icons/code-slash-outline.svg',
   };
 
   ngOnInit() {

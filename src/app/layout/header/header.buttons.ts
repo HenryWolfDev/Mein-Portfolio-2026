@@ -4,14 +4,17 @@ export const HEADER_EPXERIENCE_BUTTON: ButtonConfig = {
   label: 'Erfahrungen',
   variant: 'transparent',
   icon: 'code-slash',
+  iconPosition: 'left',
 };
 export const HEADER_PROJECTS_BUTTON: ButtonConfig = {
   label: 'Projekte',
   variant: 'transparent',
   icon: 'easel',
+  iconPosition: 'left',
 };
 export const HEADER_CONTACT_BUTTON: ButtonConfig = {
   label: 'Kontakt',
   variant: 'transparent',
   icon: 'mail',
+  iconPosition: 'left',
 };

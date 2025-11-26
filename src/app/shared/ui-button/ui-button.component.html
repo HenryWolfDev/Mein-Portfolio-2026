@@ -1,4 +1,11 @@
 <button>
-  <img src="{{ iconPath }}" alt="" />
-  <p>{{ config.label }}</p>
+  <span *ngIf="config.iconPosition === 'left'">
+    <img src="{{ iconPath }}" alt="" />
+  </span>
+
+  <span>{{ config.label }}</span>
+
+  <span *ngIf="config.iconPosition === 'right'">
+    <img src="{{ iconPath }}" alt="" />
+  </span>
 </button>
